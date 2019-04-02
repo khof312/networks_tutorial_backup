@@ -1,9 +1,7 @@
-# Using conda with pip in the same build
+# Analyzing and Visualizing Social Networks
+A tutorial on analyzing and visualizing networks with Python and the [NetworkX](https://networkx.github.io/documentation/stable/index.html) package.
 
-[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/binder-examples/python-conda_pip/master?filepath=index.ipynb)
+- Day 1: Importing and analyzing graphs.
+- Day 2: Visualizing network datasets.
 
-If you use `environment.yml`, then Binder will use a Miniconda distribution
-to install your packages. However, you may still want to use `pip`. In
-this case, you should **not** use a `requirements.txt` file, but instead use
-a `- pip` section in `environment.yml`. This repository is an example of how
-to construct your `environment.yml` file to accomplish this.
+You can launch the files interactively [here](https://mybinder.org/v2/gh/khof312/networks_tutorial/master).
